@@ -1,0 +1,51 @@
+<div class="body">
+  <div [ngClass]="gameOver ? 'show' : ''" class="game-modal">
+    <div class="content">
+      <img
+        [src]="'../../assets/hang-man/' + (win ? 'victory' : 'lost') + '.gif'"
+        alt="gif"
+      />
+      <h4>{{ win ? "Congrats" : "Game Over" }}</h4>
+      <p>
+        {{ win ? "You found the word: " : "The correct word was:"
+        }}<b>{{ word }}</b>
+      </p>
+      <button class="play-again" (click)="resetGame()">Play Again</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="hangman-box">
+      <img
+        [src]="'../../assets/hang-man/hangman-' + errors + '.svg'"
+        draggable="false"
+        alt="hangman-img"
+      />
+      <h1>Hangman Game</h1>
+    </div>
+    <div class="game-box">
+      <ul class="word-display">
+        <li
+          #list
+          class="letter"
+          *ngFor="let blanks of word.split(''); let i = index"
+        ></li>
+      </ul>
+      <h4 class="hint-text">
+        Hint: <b>{{ hint }}</b>
+      </h4>
+      <h4 class="guesses-text">
+        Incorrect guesses: <b>{{ errors }}/6</b>
+      </h4>
+      <div class="keyboard">
+        <button
+          #btn
+          (click)="initGame(btn)"
+          class="letter"
+          *ngFor="let letter of letters; let i = index"
+        >
+          {{ letter }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

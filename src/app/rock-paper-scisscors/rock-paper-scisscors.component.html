@@ -1,0 +1,35 @@
+<div class="container">
+  <h1 class="title">Rock Paper Scissors</h1>
+  <div>
+    <button (click)="playGame('Rock')" class="move-button">
+      <img src="../../assets/images/rock-emoji.png" class="move-icon" />
+    </button>
+    <button (click)="playGame('Paper')" class="move-button">
+      <img src="../../assets/images/paper-emoji.png" class="move-icon" />
+    </button>
+    <button (click)="playGame('Scissors')" class="move-button">
+      <img src="../../assets/images/scissors-emoji.png" class="move-icon" />
+    </button>
+
+    <div class="info-box">
+      <div>
+        <p class="result">{{ result }}</p>
+        <p *ngIf="playerMove" class="moves">
+          You:<img
+            src="''../../assets/images/{{ playerMove | lowercase }}-emoji.png"
+            class="move-icon"
+          />
+          <img
+            src="''../../assets/images/{{ computerMove | lowercase }}-emoji.png"
+            class="move-icon"
+          />: Computer
+        </p>
+      </div>
+      <div *ngIf="playerMove">
+        <p class="score">Wins:{{ score.Wins }}</p>
+        <p class="score">Losses :{{ score.Losses }}</p>
+        <p class="score">Ties :{{ score.Ties }}</p>
+      </div>
+    </div>
+  </div>
+</div>

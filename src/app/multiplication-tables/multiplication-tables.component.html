@@ -1,0 +1,13 @@
+<h1>Multiplication Tables</h1>
+<div class="container">
+  <div
+    [routerLink]="['/m-exercises', i]"
+    *ngFor="let number of multiplyer; let i = index"
+    [ngClass]="'number-' + i"
+  >
+    <span class="title">Table {{ number }}</span>
+    <span class="content" *ngFor="let multiply of multiplyer">
+      {{ multiply }} x {{ number }} ={{ number * multiply }}
+    </span>
+  </div>
+</div>

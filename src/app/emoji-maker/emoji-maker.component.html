@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="container-sm">
+    <div class="container-btn">
+      <button (click)="colorClick()">Color</button>
+      <button (click)="eyesClick()">Eyes</button>
+      <button (click)="eyebrowsClick()">Eyebrows</button>
+      <button (click)="mouthClick()">Mouth</button>
+    </div>
+
+    <div class="container-emoji">
+      <div
+        class="emoji"
+        [ngStyle]="{ 'background-color': colors[counterColor] }"
+      >
+        <img
+          src="../../assets/emoji/eyebrow-{{ counterEyebrows }}.svg"
+          alt=""
+        />
+        <img
+          class="eyes"
+          src="../../assets/emoji/eye-{{ counterEyes }}.svg"
+          alt=""
+        />
+        <img
+          class="mouth"
+          src="../../assets/emoji/mouth-{{ counterMouth }}.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</div>

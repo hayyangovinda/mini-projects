@@ -1,0 +1,51 @@
+<div class="container">
+  <h2>My mini projects</h2>
+
+  <div fxLayout="row wrap" fxLayoutGap="20px grid">
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        [(ngModel)]="InputValue"
+        placeholder="Search"
+        (keyup)="applySearchFilter()"
+      />
+      <button
+        *ngIf="InputValue"
+        matSuffix
+        mat-icon-button
+        aria-label="Clear"
+        (click)="InputValue = ''"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-form-field class="sort-select">
+      <mat-select
+        placeholder="Sort"
+        (selectionChange)="sortProjects($event.value)"
+      >
+        <mat-option value="atoZ">A - Z</mat-option>
+        <mat-option value="ztoA">Z - A</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div fxLayout="row wrap" fxLayoutGap="50px grid">
+    <div
+      *ngFor="let project of filteredProjects"
+      routerLink="/{{ project.route }}"
+    >
+      <mat-card class="project-card">
+        <img
+          mat-card-image
+          src="../../assets/image mini/{{ project.route }}.jpg"
+        />
+        <mat-card-content>
+          <mat-card-title>{{ project.name }}</mat-card-title>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

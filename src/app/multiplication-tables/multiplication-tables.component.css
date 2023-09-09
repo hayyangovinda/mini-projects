@@ -1,0 +1,321 @@
+span {
+  display: block;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 50px;
+
+  text-align: justify;
+
+  :hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #355c7d;
+  }
+
+  :hover {
+    color: #355c7d;
+    box-shadow: 0 0 5px #355c7d;
+    text-shadow: 0 0 5px #355c7d;
+  }
+}
+
+div:hover span {
+  pointer-events: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 12px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.number-0 {
+  background-color: #279eff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #0c356a;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-1 {
+  background-color: #c23373;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #79155b;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-2 {
+  background-color: #35a29f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #0b666a;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-3 {
+  background-color: #f3aa60;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #ef6262;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-4 {
+  background-color: #fae392;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #f1c93b;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-5 {
+  background-color: #64ccc5;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #176b87;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-6 {
+  background-color: #ffd89c;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #f1c27b;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-7 {
+  background-color: rgb(15, 212, 146);
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: rgb(4, 158, 107);
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-8 {
+  background-color: #99627a;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #643843;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-9 {
+  background-color: #e5f9db;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #a0d8b3;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-10 {
+  background-color: #f99b7d;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #e76161;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+.number-11 {
+  background-color: #d8d9da;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+  .title {
+    background-color: #61677a;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .content {
+    /* padding: 4px; */
+    margin: 3px auto;
+    /* text-align: justify; */
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

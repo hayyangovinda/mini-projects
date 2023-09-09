@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Digital Clock</h2>
+
+  <div class="clock">
+    <div>
+      <span class="time">{{ hour | number : "2.0-0" }}</span>
+      <span class="text">Hours</span>
+    </div>
+    <div>
+      <span class="time">{{ minutes | number : "2.0-0" }}</span>
+      <span class="text">Minutes</span>
+    </div>
+    <div>
+      <span class="time">{{ seconds | number : "2.0-0" }}</span>
+      <span class="text">Seconds</span>
+    </div>
+    <div>
+      <span id="ampm">{{ ampm }}</span>
+    </div>
+  </div>
+</div>
