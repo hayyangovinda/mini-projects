@@ -21,7 +21,8 @@ export class HomeComponent {
     { name: 'Country Guide', route: 'country-guide' },
     { name: 'Emoji Maker', route: 'emoji-maker' },
     { name: 'Whac-A-Mole', route: 'whac-a-mole' },
-    {name:'Guess The Number', route:'guess-the-number'}
+    { name: 'Guess The Number', route: 'guess-the-number' },
+    { name: 'Pokemon Cards', route: 'pokemon-card' },
   ];
 
   filteredProjects = this.projects;

@@ -15,6 +15,7 @@ import { CountryGuideComponent } from './country-guide/country-guide.component';
 import { EmojiMakerComponent } from './emoji-maker/emoji-maker.component';
 import { WhacAMoleComponent } from './whac-a-mole/whac-a-mole.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
+import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   // this.randomPipePlant = this.getRandomPipe();
   { path: 'whac-a-mole', component: WhacAMoleComponent },
   { path: 'guess-the-number', component: GuessTheNumberComponent },
+  { path: 'pokemon-card', component: PokemonCardComponent },
 ];
 
 @NgModule({

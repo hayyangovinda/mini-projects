@@ -23,6 +23,7 @@ import { EmojiMakerComponent } from './emoji-maker/emoji-maker.component';
 import { CommonModule } from '@angular/common';
 import { WhacAMoleComponent } from './whac-a-mole/whac-a-mole.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
+import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.com
     EmojiMakerComponent,
     WhacAMoleComponent,
     GuessTheNumberComponent,
+    PokemonCardComponent,
   ],
   imports: [
     BrowserModule,
