@@ -16,9 +16,11 @@ import { EmojiMakerComponent } from './emoji-maker/emoji-maker.component';
 import { WhacAMoleComponent } from './whac-a-mole/whac-a-mole.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: LoginFormComponent },
+  { path: 'Home', component: HomeComponent },
   { path: 'digital-clock', component: DigitalClockComponent },
   { path: 'addition-game', component: AdditionGameComponent },
   { path: 'multiplication-app', component: MultiplicationTablesComponent },

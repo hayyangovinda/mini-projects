@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdditionGameComponent } from './addition-game/addition-game.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DigitalClockComponent } from './digital-clock/digital-clock.component';
 import { HomeComponent } from './home/home.component';
 import { MultiplicationTablesComponent } from './multiplication-tables/multiplication-tables.component';
@@ -24,6 +24,8 @@ import { CommonModule } from '@angular/common';
 import { WhacAMoleComponent } from './whac-a-mole/whac-a-mole.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
+import { LoginFormComponent } from './login-form/login-form.component';
+import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
     WhacAMoleComponent,
     GuessTheNumberComponent,
     PokemonCardComponent,
+    LoginFormComponent,
+    AlarmClockComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,6 +57,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
     MaterialModule,
     HttpClientModule,
     CommonModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
