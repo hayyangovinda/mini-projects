@@ -17,6 +17,7 @@ import { WhacAMoleComponent } from './whac-a-mole/whac-a-mole.component';
 import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.component';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'whac-a-mole', component: WhacAMoleComponent },
   { path: 'guess-the-number', component: GuessTheNumberComponent },
   { path: 'pokemon-card', component: PokemonCardComponent },
+  { path: 'alarm-clock', component: AlarmClockComponent },
 ];
 
 @NgModule({

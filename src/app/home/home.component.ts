@@ -23,6 +23,7 @@ export class HomeComponent {
     { name: 'Whac-A-Mole', route: 'whac-a-mole' },
     { name: 'Guess The Number', route: 'guess-the-number' },
     { name: 'Pokemon Cards', route: 'pokemon-card' },
+    { name: 'Alarm Clock', route: 'alarm-clock' },
   ];
 
   filteredProjects = this.projects;

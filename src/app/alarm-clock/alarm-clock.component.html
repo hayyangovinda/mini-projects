@@ -1,1 +1,43 @@
-<p>alarm-clock works!</p>
+<div class="container">
+  <div class="wrapper">
+    <img src="../../assets/alarm-clock/clock.svg" />
+    <h1>
+      {{ hour | number : "2.0-0" }}:{{ minute | number : "2.0-0" }}:{{
+        second | number : "2.0-0"
+      }}
+      {{ amPm }}
+    </h1>
+
+    <div class="content" [ngClass]="{ disable: alarmSet }">
+      <div class="column">
+        <select #hourinput>
+          <option selected disabled hidden value="Hour">Hour</option>
+          <option *ngFor="let hour of hoursArray" [value]="hour">
+            {{ hour | number : "2.0-0" }}
+          </option>
+        </select>
+      </div>
+      <div class="column">
+        <select #minuteinput>
+          <option selected disabled hidden value="Minute">Minute</option>
+          <option *ngFor="let minute of minutesArray" [value]="minute">
+            {{ minute | number : "2.0-0" }}
+          </option>
+        </select>
+      </div>
+      <div class="column">
+        <select #ampminput>
+          <option selected disabled hidden value="AM/PM">AM/PM</option>
+          <option *ngFor="let time of amPmArray" [value]="time">
+            {{ time }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <button
+      (click)="setAlarm(+hourinput.value, +minuteinput.value, ampminput.value)"
+    >
+      {{ alarmSet ? "Clear Alarm" : "Set Alarm" }}
+    </button>
+  </div>
+</div>
