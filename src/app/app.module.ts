@@ -26,6 +26,7 @@ import { GuessTheNumberComponent } from './guess-the-number/guess-the-number.com
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
+import { SnakeGameComponent } from './snake-game/snake-game.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
     PokemonCardComponent,
     LoginFormComponent,
     AlarmClockComponent,
+    SnakeGameComponent,
   ],
   imports: [
     BrowserModule,

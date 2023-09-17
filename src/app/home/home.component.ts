@@ -24,6 +24,7 @@ export class HomeComponent {
     { name: 'Guess The Number', route: 'guess-the-number' },
     { name: 'Pokemon Cards', route: 'pokemon-card' },
     { name: 'Alarm Clock', route: 'alarm-clock' },
+    { name: 'Snake Game', route: 'snake-game' },
   ];
 
   filteredProjects = this.projects;
