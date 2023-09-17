@@ -27,6 +27,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
+import { AnalogClockComponent } from './analog-clock/analog-clock.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { SnakeGameComponent } from './snake-game/snake-game.component';
     LoginFormComponent,
     AlarmClockComponent,
     SnakeGameComponent,
+    AnalogClockComponent,
   ],
   imports: [
     BrowserModule,

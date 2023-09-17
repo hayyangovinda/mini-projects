@@ -25,6 +25,7 @@ export class HomeComponent {
     { name: 'Pokemon Cards', route: 'pokemon-card' },
     { name: 'Alarm Clock', route: 'alarm-clock' },
     { name: 'Snake Game', route: 'snake-game' },
+    { name: 'Analog Clock', route: 'analog-clock' },
   ];
 
   filteredProjects = this.projects;
