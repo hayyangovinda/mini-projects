@@ -1,0 +1,48 @@
+<div class="body">
+  <div [ngClass]="{ hide: showBoard || showResult }" class="select-box">
+    <header>Tic Tac Toe</header>
+    <div class="content">
+      <div class="title">Select which you want to be?</div>
+      <div class="options">
+        <button class="playerX" (click)="selectPlayer('X')">Player (X)</button>
+        <button class="playerO" (click)="selectPlayer('O')">Player (O)</button>
+      </div>
+    </div>
+  </div>
+
+  <div #playboard [ngClass]="{ show: showBoard }" class="play-board">
+    <div class="details">
+      <div
+        class="players"
+        [ngClass]="{
+          'active ': selectedPlayer === 'O'
+        }"
+      >
+        <span class="Xturn">X's Turn</span>
+        <span class="Oturn">O's Turn</span>
+        <div class="slider"></div>
+      </div>
+    </div>
+
+    <div class="play-area">
+      <section *ngFor="let row of board; let i = index">
+        <span
+          #cell
+          (click)="selectCell(cell, i, j)"
+          class="box{{ 3 * i + j + 1 }}"
+          *ngFor="let cells of row; let j = index"
+        >
+        </span>
+      </section>
+    </div>
+  </div>
+
+  <!-- -----Result Box--- -->
+
+  <div *ngIf="showResult && !showBoard" class="result-box">
+    <div class="won-text">{{ winText }}</div>
+    <div class="btn" (click)="reload()"><button>Replay</button></div>
+  </div>
+</div>
+
+<img src="../../assets/tictactoe/X.svg" alt="" />

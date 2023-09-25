@@ -26,6 +26,8 @@ export class HomeComponent {
     { name: 'Alarm Clock', route: 'alarm-clock' },
     { name: 'Snake Game', route: 'snake-game' },
     { name: 'Analog Clock', route: 'analog-clock' },
+    { name: 'Currency Converter', route: 'currency-converter' },
+    { name: 'Tic Tac Toe', route: 'tic-tac-toe' },
   ];
 
   filteredProjects = this.projects;

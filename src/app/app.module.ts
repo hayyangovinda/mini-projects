@@ -28,6 +28,9 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { AnalogClockComponent } from './analog-clock/analog-clock.component';
+import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +55,9 @@ import { AnalogClockComponent } from './analog-clock/analog-clock.component';
     AlarmClockComponent,
     SnakeGameComponent,
     AnalogClockComponent,
+    CurrencyConverterComponent,
+    ToDoListComponent,
+    TicTacToeComponent,
   ],
   imports: [
     BrowserModule,

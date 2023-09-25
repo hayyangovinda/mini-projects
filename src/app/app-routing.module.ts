@@ -20,6 +20,8 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { AlarmClockComponent } from './alarm-clock/alarm-clock.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { AnalogClockComponent } from './analog-clock/analog-clock.component';
+import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
+import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -46,6 +48,8 @@ const routes: Routes = [
   { path: 'alarm-clock', component: AlarmClockComponent },
   { path: 'snake-game', component: SnakeGameComponent },
   { path: 'analog-clock', component: AnalogClockComponent },
+  { path: 'currency-converter', component: CurrencyConverterComponent },
+  { path: 'tic-tac-toe', component: TicTacToeComponent },
 ];
 
 @NgModule({
