@@ -28,6 +28,7 @@ export class HomeComponent {
     { name: 'Currency Converter', route: 'currency-converter' },
     { name: 'Tic Tac Toe', route: 'tic-tac-toe' },
     { name: 'Calculator', route: 'calculator' },
+    { name: 'Color Slider', route: 'color-slider' },
   ];
 
   filteredProjects = this.projects;
