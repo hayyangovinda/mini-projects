@@ -33,6 +33,7 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorSliderComponent } from './color-slider/color-slider.component';
+import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { ColorSliderComponent } from './color-slider/color-slider.component';
     TicTacToeComponent,
     CalculatorComponent,
     ColorSliderComponent,
+    RecipeAppComponent,
   ],
   imports: [
     BrowserModule,
