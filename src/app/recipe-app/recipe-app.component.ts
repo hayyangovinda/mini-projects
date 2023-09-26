@@ -22,9 +22,14 @@ export class RecipeAppComponent {
 
   search() {
     this.mealApiService.getData(this.userInput).subscribe(
-      (resp) => {
-        this.meal = resp;
-        this.meal = this.meal.meals[0];
+      (resp: any) => {
+        if (!resp.meals?.length) {
+          this.errorMessage = 'No meal found. Please try again!';
+          return;
+        }
+
+        this.meal = resp.meals[0];
+
         let count = 1;
         let ingredients = [];
         for (let i in this.meal) {
