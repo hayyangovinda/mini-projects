@@ -31,6 +31,7 @@ import { AnalogClockComponent } from './analog-clock/analog-clock.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
     CurrencyConverterComponent,
     ToDoListComponent,
     TicTacToeComponent,
+    CalculatorComponent,
   ],
   imports: [
     BrowserModule,
