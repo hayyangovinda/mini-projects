@@ -24,6 +24,7 @@ import { CurrencyConverterComponent } from './currency-converter/currency-conver
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorSliderComponent } from './color-slider/color-slider.component';
+import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'tic-tac-toe', component: TicTacToeComponent },
   { path: 'calculator', component: CalculatorComponent },
   { path: 'color-slider', component: ColorSliderComponent },
+  { path: 'recipe-app', component: RecipeAppComponent },
 ];
 
 @NgModule({

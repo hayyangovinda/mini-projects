@@ -1,1 +1,31 @@
-<p>recipe-app works!</p>
+<div class="body">
+  <div class="container">
+    <div class="search-container">
+      <input
+        [(ngModel)]="userInput"
+        type="text"
+        placeholder="Type A Dish Name Here"
+        id="user-inp"
+      />
+      <button (click)="search()" id="search-btn">Search</button>
+      <small *ngIf="errorMessage">{{ errorMessage }}</small>
+    </div>
+    <div *ngIf="showDetails" id="result">
+      <img [src]="imgSrc" alt="" />
+      <div class="details">
+        <h2>{{ detailsH2 }}</h2>
+        <h4>{{ detailsH4 }}</h4>
+      </div>
+      <div id="ingredient-con">
+        <ul>
+          <li *ngFor="let ingredient of ingredients">{{ ingredient }}</li>
+        </ul>
+      </div>
+      <div id="recipe" #recipe>
+        <button id="hide-recipe" (click)="clickHideRecipe()">X</button>
+        <pre id="instructions">{{ instructions }}</pre>
+      </div>
+      <button (click)="clickShowRecipe()" id="show-recipe">View Recipe</button>
+    </div>
+  </div>
+</div>
