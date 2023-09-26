@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Project } from './projects.model';
-import { WhacAMoleComponent } from '../whac-a-mole/whac-a-mole.component';
 
 @Component({
   selector: 'app-home',
@@ -28,6 +27,7 @@ export class HomeComponent {
     { name: 'Analog Clock', route: 'analog-clock' },
     { name: 'Currency Converter', route: 'currency-converter' },
     { name: 'Tic Tac Toe', route: 'tic-tac-toe' },
+    { name: 'Calculator', route: 'calculator' },
   ];
 
   filteredProjects = this.projects;

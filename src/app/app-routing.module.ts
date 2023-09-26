@@ -22,6 +22,8 @@ import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { AnalogClockComponent } from './analog-clock/analog-clock.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import { ColorSliderComponent } from './color-slider/color-slider.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -50,6 +52,8 @@ const routes: Routes = [
   { path: 'analog-clock', component: AnalogClockComponent },
   { path: 'currency-converter', component: CurrencyConverterComponent },
   { path: 'tic-tac-toe', component: TicTacToeComponent },
+  { path: 'calculator', component: CalculatorComponent },
+  { path: 'color-slider', component: ColorSliderComponent },
 ];
 
 @NgModule({

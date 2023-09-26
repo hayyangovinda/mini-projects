@@ -32,6 +32,7 @@ import { CurrencyConverterComponent } from './currency-converter/currency-conver
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { ColorSliderComponent } from './color-slider/color-slider.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
     ToDoListComponent,
     TicTacToeComponent,
     CalculatorComponent,
+    ColorSliderComponent,
   ],
   imports: [
     BrowserModule,
