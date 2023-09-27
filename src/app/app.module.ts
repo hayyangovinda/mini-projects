@@ -34,6 +34,7 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorSliderComponent } from './color-slider/color-slider.component';
 import { RecipeAppComponent } from './recipe-app/recipe-app.component';
+import { StopwatchComponent } from './stopwatch/stopwatch.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { RecipeAppComponent } from './recipe-app/recipe-app.component';
     CalculatorComponent,
     ColorSliderComponent,
     RecipeAppComponent,
+    StopwatchComponent,
   ],
   imports: [
     BrowserModule,
