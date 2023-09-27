@@ -31,6 +31,7 @@ export class HomeComponent {
     { name: 'Color Slider', route: 'color-slider' },
     { name: 'Recipe App', route: 'recipe-app' },
     { name: 'Stopwatch', route: 'stopwatch' },
+    { name: 'AI Image Generator', route: 'ai-image-generator' },
   ];
   filteredProjects = this.projects;
 

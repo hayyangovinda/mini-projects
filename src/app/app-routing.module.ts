@@ -26,6 +26,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorSliderComponent } from './color-slider/color-slider.component';
 import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
+import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generator.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'color-slider', component: ColorSliderComponent },
   { path: 'recipe-app', component: RecipeAppComponent },
   { path: 'stopwatch', component: StopwatchComponent },
+  { path: 'ai-image-generator', component: AiImageGeneratorComponent },
 ];
 
 @NgModule({
