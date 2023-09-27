@@ -1,0 +1,134 @@
+[33mcommit 49705211d41a30b0d36d4acfbaa430a16f899a4f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Wed Sep 27 09:25:43 2023 +0400
+
+    stopwatch created
+
+[33mcommit 4eeda24668cf6dadd66db75014d2ef6a43e3e149[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 19:25:01 2023 +0400
+
+    2modification
+
+[33mcommit c5f901f0f78ceaaac5e319245603e5038c77bec9[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 18:52:23 2023 +0400
+
+    1st modification
+
+[33mcommit 53982a5f2c60467fa92d78eaabf60e904b960ab5[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 13:32:32 2023 +0400
+
+    pic changed
+
+[33mcommit 3c9343a9d8352f498e13da60622920eeadd8c54c[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 13:28:03 2023 +0400
+
+    bug fixed in recipe app
+
+[33mcommit 0993ea5ac2eeb457d3384d178dd881dcdef2aeb1[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 11:58:31 2023 +0400
+
+    recipe app added
+
+[33mcommit f36998eee7298ab39bc87b57c7cf4179231a0f14[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 09:49:51 2023 +0400
+
+    recipe-app created
+
+[33mcommit 2e3f55758a2f09ad6113515cb4eaf5600c28c6fe[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 09:24:11 2023 +0400
+
+    color-slider added
+
+[33mcommit 1ab95a261abde260ede5a35904478330310e9e7b[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 08:05:27 2023 +0400
+
+    color slider created
+
+[33mcommit b2cf6fd33874af8d47f967cf8a443a97556ede2a[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 08:04:44 2023 +0400
+
+    calculator added
+
+[33mcommit 9c87a2bd1091872471952d8077cd062a894d4e40[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 26 06:35:46 2023 +0400
+
+    calulator created
+
+[33mcommit ba7ccabfb22266ed40de3a55fef867d7cf1e5202[m
+Merge: 5251c38 7d0b323
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Mon Sep 25 09:57:52 2023 +0400
+
+    Merge branch 'master' of https://github.com/hayyangovinda/mini-projects
+
+[33mcommit 5251c382bd1f03bcc901283c7b6e7e8babb4b9a0[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Mon Sep 25 09:56:29 2023 +0400
+
+    tic-tac-toe added
+
+[33mcommit 7d0b323a287c8b7c875e4d1b0b5d767fdc4904d9[m
+Author: Hayyan Govinda <137759281+hayyangovinda@users.noreply.github.com>
+Date:   Fri Sep 22 18:58:15 2023 +0400
+
+    Update app.component.html
+    
+    edit app.component.html
+
+[33mcommit b8bbf2ebae43ebed4211bafeca7c6d586e7849e8[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Sun Sep 17 14:35:05 2023 +0400
+
+    analog clock added
+
+[33mcommit dae46a14202baa3be09e74bf9cc69af2619f8f09[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Sun Sep 17 13:36:26 2023 +0400
+
+    snake game added
+
+[33mcommit ecee293edf4c9ec704a7c9c35ef518bfd6bfa1c4[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Sun Sep 17 09:57:29 2023 +0400
+
+    added alarm clock
+
+[33mcommit 64bf39fbaf4eaf4c2138195ff07e3dc195984d1f[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Sat Sep 16 14:31:10 2023 +0400
+
+    alarm-clock start
+
+[33mcommit 5d08cef476475e0bb395d2192df1fc7dd029a299[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Fri Sep 15 12:00:41 2023 +0400
+
+    pointer added
+
+[33mcommit 78555afd29866f0e0413dc29a20bdc0c4bc1e3ca[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Tue Sep 12 10:26:57 2023 +0400
+
+    "pokemon-card added"
+
+[33mcommit b920678be1da8cee92f83d9c7b03bd409f645c00[m
+Author: Hayyan <hayyan.gov@gmail.com>
+Date:   Sat Sep 9 11:02:38 2023 +0400
+
+    "Version1"
+
+[33mcommit 115edbbf5486214f9c7f89f0cac595b074b60c19[m
+Author: Hayyan <appetito.ltd@gmail.com>
+Date:   Sun Aug 27 07:55:42 2023 +0400
+
+    initial commit
