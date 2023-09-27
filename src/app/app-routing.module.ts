@@ -25,6 +25,7 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorSliderComponent } from './color-slider/color-slider.component';
 import { RecipeAppComponent } from './recipe-app/recipe-app.component';
+import { StopwatchComponent } from './stopwatch/stopwatch.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -56,6 +57,7 @@ const routes: Routes = [
   { path: 'calculator', component: CalculatorComponent },
   { path: 'color-slider', component: ColorSliderComponent },
   { path: 'recipe-app', component: RecipeAppComponent },
+  { path: 'stopwatch', component: StopwatchComponent },
 ];
 
 @NgModule({

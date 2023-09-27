@@ -30,6 +30,7 @@ export class HomeComponent {
     { name: 'Calculator', route: 'calculator' },
     { name: 'Color Slider', route: 'color-slider' },
     { name: 'Recipe App', route: 'recipe-app' },
+    { name: 'Stopwatch', route: 'stopwatch' },
   ];
   filteredProjects = this.projects;
 
