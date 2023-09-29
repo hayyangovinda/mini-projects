@@ -73,7 +73,7 @@ export class MemoryGameComponent implements OnInit {
 
   selectCard(cardimage: HTMLImageElement, index: number) {
     this.clickedCard = true;
-    cardimage.src = `../../assets/memory-game-img/${
+    cardimage.src = `assets/memory-game-img/${
       this.clickedCard ? this.cardSet[index] : 'back'
     }.jpg`;
 
@@ -87,8 +87,8 @@ export class MemoryGameComponent implements OnInit {
       if (this.card1Selected.src !== this.card2Selected.src) {
         setTimeout(() => {
           if (!this.card1Selected || !this.card2Selected) return;
-          this.card1Selected.src = `../../assets/memory-game-img/back.jpg`;
-          this.card2Selected.src = `../../assets/memory-game-img/back.jpg`;
+          this.card1Selected.src = `assets/memory-game-img/back.jpg`;
+          this.card2Selected.src = `assets/memory-game-img/back.jpg`;
           this.card2Selected = null;
           this.card1Selected = null;
           this.errors++;
@@ -106,7 +106,7 @@ export class MemoryGameComponent implements OnInit {
 // update(card1: string, card2: string) {
 //   if (card1 != card2) {
 //     this.clickedCard = false;
-//     // card1 = `../../assets/memory-game-img/back.jpg`;
-//     // card2 = `../../assets/memory-game-img/back.jpg`;
+//     // card1 = `assets/memory-game-img/back.jpg`;
+//     // card2 = `assets/memory-game-img/back.jpg`;
 //   }
 // }

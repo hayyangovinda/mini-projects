@@ -35,7 +35,7 @@ export class TicTacToeComponent {
   selectPlayer(player: string) {
     this.showBoard = true;
     this.selectedPlayer = player;
-    this.playerSign = `<img src="../../assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
+    this.playerSign = `<img src="assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
   }
 
   selectCell(cell: HTMLSpanElement, row: number, col: number) {
@@ -58,7 +58,7 @@ export class TicTacToeComponent {
       this.selectedPlayer === 'O'
         ? (this.selectedPlayer = 'X')
         : (this.selectedPlayer = 'O');
-      this.playerSign = `<img src="../../assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
+      this.playerSign = `<img src="assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
       let cellContent = this.cellElements.toArray();
       for (let i = 0; i < this.cellElements.length; i++) {
         if (cellContent[i].nativeElement.childElementCount === 0) {
@@ -81,7 +81,7 @@ export class TicTacToeComponent {
     this.selectedPlayer === 'O'
       ? (this.selectedPlayer = 'X')
       : (this.selectedPlayer = 'O');
-    this.playerSign = `<img src="../../assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
+    this.playerSign = `<img src="assets/tictactoe/${this.selectedPlayer}.svg" alt="X" />`;
   }
 
   getIdVal(classNumber: number) {

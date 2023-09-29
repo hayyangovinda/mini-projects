@@ -2,7 +2,7 @@
   <div [ngClass]="gameOver ? 'show' : ''" class="game-modal">
     <div class="content">
       <img
-        [src]="'../../assets/hang-man/' + (win ? 'victory' : 'lost') + '.gif'"
+        [src]="'assets/hang-man/' + (win ? 'victory' : 'lost') + '.gif'"
         alt="gif"
       />
       <h4>{{ win ? "Congrats" : "Game Over" }}</h4>
@@ -16,7 +16,7 @@
   <div class="container">
     <div class="hangman-box">
       <img
-        [src]="'../../assets/hang-man/hangman-' + errors + '.svg'"
+        [src]="'assets/hang-man/hangman-' + errors + '.svg'"
         draggable="false"
         alt="hangman-img"
       />

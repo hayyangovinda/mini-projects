@@ -2,13 +2,13 @@
   <h1 class="title">Rock Paper Scissors</h1>
   <div>
     <button (click)="playGame('Rock')" class="move-button">
-      <img src="../../assets/images/rock-emoji.png" class="move-icon" />
+      <img src="assets/images/rock-emoji.png" class="move-icon" />
     </button>
     <button (click)="playGame('Paper')" class="move-button">
-      <img src="../../assets/images/paper-emoji.png" class="move-icon" />
+      <img src="assets/images/paper-emoji.png" class="move-icon" />
     </button>
     <button (click)="playGame('Scissors')" class="move-button">
-      <img src="../../assets/images/scissors-emoji.png" class="move-icon" />
+      <img src="assets/images/scissors-emoji.png" class="move-icon" />
     </button>
 
     <div class="info-box">
@@ -16,11 +16,11 @@
         <p class="result">{{ result }}</p>
         <p *ngIf="playerMove" class="moves">
           You:<img
-            src="''../../assets/images/{{ playerMove | lowercase }}-emoji.png"
+            src="''assets/images/{{ playerMove | lowercase }}-emoji.png"
             class="move-icon"
           />
           <img
-            src="''../../assets/images/{{ computerMove | lowercase }}-emoji.png"
+            src="''assets/images/{{ computerMove | lowercase }}-emoji.png"
             class="move-icon"
           />: Computer
         </p>

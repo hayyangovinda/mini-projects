@@ -15,7 +15,7 @@ export class AlarmClockComponent implements OnInit {
   second!: number;
   alarmTime!: string;
   alarmSet = false;
-  ringtone = new Audio('../../assets/alarm-clock/ringtone.mp3');
+  ringtone = new Audio('assets/alarm-clock/ringtone.mp3');
   amPm!: string;
 
   getTime() {

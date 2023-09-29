@@ -5,9 +5,7 @@
   <div id="board">
     <img
       *ngFor="let card of cardSet; let i = index"
-      [src]="
-        '../../assets/memory-game-img/' + (checkCard ? card : 'back') + '.jpg'
-      "
+      [src]="'assets/memory-game-img/' + (checkCard ? card : 'back') + '.jpg'"
       class="card"
       (click)="selectCard(cardimage, i)"
       #cardimage
