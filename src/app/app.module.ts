@@ -36,6 +36,7 @@ import { ColorSliderComponent } from './color-slider/color-slider.component';
 import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generator.component';
+import { CaptchaGeneratorComponent } from './captcha-generator/captcha-generator.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generat
     RecipeAppComponent,
     StopwatchComponent,
     AiImageGeneratorComponent,
+    CaptchaGeneratorComponent,
   ],
   imports: [
     BrowserModule,
