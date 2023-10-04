@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  background-color: rgb(27, 131, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.form {
+  width: 350px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+.user-input {
+  display: block;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.display {
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 4px;
+  padding-right: 0 !important;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.refresh-btn {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  right: -8px;
+  border: none;
+  border-radius: 8px;
+  padding: 4px;
+  background-color: rgb(27, 131, 131);
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: azure;
+}
+
+.user-input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
+  outline: none;
+  color: rgb(27, 131, 131);
+  padding-left: 12px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.user-input::placeholder {
+  font-size: 18px;
+  text-align: center;
+}
+
+.user-input:focus {
+  outline: 1px solid rgb(27, 131, 131);
+}
+
+button.submit-btn {
+  background-color: rgb(27, 131, 131);
+  padding: 18px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+button.submit-btn:hover {
+  transform: scale(1.01);
+}
+
+.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.modal {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  position: relative;
+}
+
+.modal h3 {
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.modal .icon {
+  position: absolute;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.close-btn {
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+}
+
+.close-btn:hover .icon {
+  color: red;
+}

@@ -27,6 +27,7 @@ import { ColorSliderComponent } from './color-slider/color-slider.component';
 import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generator.component';
+import { CaptchaGeneratorComponent } from './captcha-generator/captcha-generator.component';
 
 const routes: Routes = [
   { path: '', component: LoginFormComponent },
@@ -60,6 +61,7 @@ const routes: Routes = [
   { path: 'recipe-app', component: RecipeAppComponent },
   { path: 'stopwatch', component: StopwatchComponent },
   { path: 'ai-image-generator', component: AiImageGeneratorComponent },
+  { path: 'captcha-generator', component: CaptchaGeneratorComponent },
 ];
 
 @NgModule({
