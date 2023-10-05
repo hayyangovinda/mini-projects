@@ -33,6 +33,7 @@ export class HomeComponent {
     { name: 'Stopwatch', route: 'stopwatch' },
     // { name: 'AI Image Generator', route: 'ai-image-generator' },
     { name: 'Captcha Generator', route: 'captcha-generator' },
+    { name: 'Registration Form', route: 'registration-form' },
   ];
   filteredProjects = this.projects;
 
