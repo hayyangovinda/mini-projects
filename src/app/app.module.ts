@@ -37,6 +37,7 @@ import { RecipeAppComponent } from './recipe-app/recipe-app.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generator.component';
 import { CaptchaGeneratorComponent } from './captcha-generator/captcha-generator.component';
+import { RegistrationFormComponent } from './registration.form/registration.form.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { CaptchaGeneratorComponent } from './captcha-generator/captcha-generator
     StopwatchComponent,
     AiImageGeneratorComponent,
     CaptchaGeneratorComponent,
+    RegistrationFormComponent,
   ],
   imports: [
     BrowserModule,
