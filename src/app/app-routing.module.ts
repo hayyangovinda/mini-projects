@@ -64,6 +64,7 @@ const routes: Routes = [
   { path: 'ai-image-generator', component: AiImageGeneratorComponent },
   { path: 'captcha-generator', component: CaptchaGeneratorComponent },
   { path: 'registration-form', component: RegistrationFormComponent },
+  { path: 'lazy-loading', loadChildren: () => import('./lazy-loading/lazy-loading.module').then(m => m.LazyLoadingModule) },
 ];
 
 @NgModule({

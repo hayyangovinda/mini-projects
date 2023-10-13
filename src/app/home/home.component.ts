@@ -34,6 +34,7 @@ export class HomeComponent {
     // { name: 'AI Image Generator', route: 'ai-image-generator' },
     { name: 'Captcha Generator', route: 'captcha-generator' },
     { name: 'Registration Form', route: 'registration-form' },
+    { name: 'Lazy Loading', route: 'lazy-loading' },
   ];
   filteredProjects = this.projects;
 
