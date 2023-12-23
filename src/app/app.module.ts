@@ -39,6 +39,35 @@ import { AiImageGeneratorComponent } from './ai-image-generator/ai-image-generat
 import { CaptchaGeneratorComponent } from './captcha-generator/captcha-generator.component';
 import { RegistrationFormComponent } from './registration.form/registration.form.component';
 
+import { AnimationsComponent } from './Css-animation/components/animations/animations.component';
+import { Button1Component } from './Css-animation/components/buttons/button1/button1.component';
+import { Button2Component } from './Css-animation/components/buttons/button2/button2.component';
+import { Button3Component } from './Css-animation/components/buttons/button3/button3.component';
+import { Button4Component } from './Css-animation/components/buttons/button4/button4.component';
+import { Button5Component } from './Css-animation/components/buttons/button5/button5.component';
+import { Button6Component } from './Css-animation/components/buttons/button6/button6.component';
+import { AllButtonsComponent } from './Css-animation/components/buttons/all-buttons/all-buttons.component';
+import { Button7Component } from './Css-animation/components/buttons/button7/button7.component';
+import { Button8Component } from './Css-animation/components/buttons/button8/button8.component';
+import { Button9Component } from './Css-animation/components/buttons/button9/button9.component';
+import { Button10Component } from './Css-animation/components/buttons/button10/button10.component';
+import { Button11Component } from './Css-animation/components/buttons/button11/button11.component';
+import { Button12Component } from './Css-animation/components/buttons/button12/button12.component';
+import { Button13Component } from './Css-animation/components/buttons/button13/button13.component';
+import { Button14Component } from './Css-animation/components/buttons/button14/button14.component';
+import { Button15Component } from './Css-animation/components/buttons/button15/button15.component';
+import { Button16Component } from './Css-animation/components/buttons/button16/button16.component';
+import { Button17Component } from './Css-animation/components/buttons/button17/button17.component';
+import { Button18Component } from './Css-animation/components/buttons/button18/button18.component';
+import { Button19Component } from './Css-animation/components/buttons/button19/button19.component';
+import { AllImagesComponent } from './Css-animation/components/images-effects/all-images/all-images.component';
+import { Image1Component } from './Css-animation/components/images-effects/image1/image1.component';
+import { Image2Component } from './Css-animation/components/images-effects/image2/image2.component';
+import { Image3Component } from './Css-animation/components/images-effects/image3/image3.component';
+import { Image4Component } from './Css-animation/components/images-effects/image4/image4.component';
+import { Image5Component } from './Css-animation/components/images-effects/image5/image5.component';
+import { Image6Component } from './Css-animation/components/images-effects/image6/image6.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -72,6 +101,35 @@ import { RegistrationFormComponent } from './registration.form/registration.form
     AiImageGeneratorComponent,
     CaptchaGeneratorComponent,
     RegistrationFormComponent,
+
+    AnimationsComponent,
+    Button1Component,
+    Button2Component,
+    Button3Component,
+    Button4Component,
+    Button5Component,
+    Button6Component,
+    AllButtonsComponent,
+    Button7Component,
+    Button8Component,
+    Button9Component,
+    Button10Component,
+    Button11Component,
+    Button12Component,
+    Button13Component,
+    Button14Component,
+    Button15Component,
+    Button16Component,
+    Button17Component,
+    Button18Component,
+    Button19Component,
+    AllImagesComponent,
+    Image1Component,
+    Image2Component,
+    Image3Component,
+    Image4Component,
+    Image5Component,
+    Image6Component,
   ],
   imports: [
     BrowserModule,

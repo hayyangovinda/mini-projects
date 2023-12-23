@@ -1,0 +1,53 @@
+.body {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+}
+
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+  height: 60px;
+  width: 200px;
+  line-height: 60px;
+  text-align: center;
+  color: #fdc518;
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 200px;
+  top: -15px;
+  left: 0;
+  border-left: 2px solid red;
+  border-right: 2px solid yellow;
+  transition: 1s;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 230px;
+  top: 0px;
+  left: -15px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid yellow;
+  transition: 1s;
+}
+
+a:hover::before {
+  transform: rotateY(180deg);
+}
+
+a:hover::after {
+  transform: rotateX(180deg);
+}

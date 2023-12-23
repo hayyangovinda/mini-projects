@@ -1,0 +1,44 @@
+.body {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+}
+
+a {
+  text-decoration: none;
+  color: #e97777;
+  font-family: sans-serif;
+  border: 5px solid #e97777;
+  padding: 40px 80px;
+  position: relative;
+  font-size: 30px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+a:before {
+  content: "YEAH!";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e97777;
+  transform: translateY(-100%);
+  transition: 1s;
+  color: white;
+}
+
+a:hover:before {
+  transform: translateY(0);
+}
+
+a:hover {
+  border: 5px solid white;
+}

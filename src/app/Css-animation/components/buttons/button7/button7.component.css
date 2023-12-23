@@ -1,0 +1,57 @@
+.body {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+  font-family: sans-serif;
+  border: 5px solid #272727;
+  padding: 40px 80px;
+  position: relative;
+  font-size: 30px;
+  background-color: #272727;
+  overflow: hidden;
+}
+a:before {
+  content: "Hover Me";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fffa65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  color: #272727;
+}
+
+a:after {
+  content: "Hover Me";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fffa65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  color: #272727;
+  transform: translate(-100%, 100%);
+}
+
+a:hover:before {
+  transform: translate(100%, -100%);
+}
+
+a:hover:after {
+  transform: translate(0);
+}
